@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# Generated vector database (rebuilt automatically by gradio-dashboard.py)
+chroma_db/

@@ -1,0 +1,9 @@
+{
+    // Python extension (Run Python File, notebooks, IntelliSense): use the project virtual environment
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+
+    // Code Runner ("Run Code" button): use the venv instead of the global `python`
+    "code-runner.executorMap": {
+        "python": "\"$workspaceRoot\\.venv\\Scripts\\python.exe\" -u"
+    }
+}

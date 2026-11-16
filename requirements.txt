@@ -1,0 +1,26 @@
+# Data
+pandas>=3.1
+numpy>=2.5
+kagglehub>=1.0
+tqdm>=4.70
+
+# Visualisation (data exploration)
+matplotlib>=3.11
+seaborn>=0.13
+
+# Vector search
+langchain-community>=0.4
+langchain-text-splitters>=1.1
+langchain-chroma>=1.1
+langchain-huggingface>=1.2
+sentence-transformers>=6.3
+
+# Classification & sentiment models
+transformers>=5.23
+torch>=2.15
+
+# Web app
+gradio>=6.32
+
+# Jupyter
+ipykernel>=7.4
